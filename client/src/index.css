@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins";
+  color: theme("colors.text-primary");
+  background-color: theme("colors.background-light");
+}
+
+html {
+  scroll-behavior: smooth;
+}
